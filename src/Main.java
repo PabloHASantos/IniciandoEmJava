@@ -25,16 +25,7 @@ public class Main {
         System.out.printf("Measue with eight decimal places: %.8f%n", measure);
         System.out.printf("Rouded (three decimal places): %.3f%n", measure);
         Locale.setDefault(Locale.US);
-<<<<<<< Updated upstream
-        System.out.printf("US decimal point: %.3f%n", measure);
-=======
 
-        System.out.println("Hello World");
-        String msg = "Programando em ";
-        System.out.println(msg + args[0]);
-        System.out.println("Precisamos de uma " + args[1]);
-
->>>>>>> Stashed changes
 
     }
 }

@@ -1,31 +1,26 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 
 public class Main {
     public static void main(String[] args) {
 
-       String product1 = "Computer";
-       String product2 = "Office Desk";
+        Scanner sc = new Scanner(System.in);
 
-       int age = 30;
-       int code = 5290;
-       char gender = 'F';
+        int x;
+        String s1, s2, s3;
 
-       double price1 = 2100.0;
-       double price2 = 650.50;
-       double measure = 53.234567;
+        x = sc.nextInt();
+        sc.nextLine();
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        s3 = sc.nextLine();
 
-        System.out.println("Products: ");
-        System.out.printf("%s, which price is $ %.2f%n", product1, price1);
-        System.out.printf("%s, which price is $ %.2f%n", product2, price2);
-        System.out.println();
-        System.out.printf("%d years old, code %d and gender: %c %n",  age, code, gender);
-        System.out.println();
-        System.out.printf("Measue with eight decimal places: %.8f%n", measure);
-        System.out.printf("Rouded (three decimal places): %.3f%n", measure);
-        Locale.setDefault(Locale.US);
-        System.out.printf("US decimal point: %.3f%n", measure);
+        System.out.println("Dados Digitados: ");
+        System.out.println(x);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
 
+        sc.close();
     }
 }

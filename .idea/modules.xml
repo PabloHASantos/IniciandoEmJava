@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Atribuicao-e-Casting/Atribuicao-e-Casting.iml" filepath="$PROJECT_DIR$/Atribuicao-e-Casting/Atribuicao-e-Casting.iml" />
       <module fileurl="file://$PROJECT_DIR$/IniciandoEmJava.iml" filepath="$PROJECT_DIR$/IniciandoEmJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Saida-de-dados/Saida-de-dados.iml" filepath="$PROJECT_DIR$/Saida-de-dados/Saida-de-dados.iml" />
     </modules>

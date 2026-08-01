@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Funcoes-matematicas/Funcoes-matematicas.iml" filepath="$PROJECT_DIR$/Funcoes-matematicas/Funcoes-matematicas.iml" />
       <module fileurl="file://$PROJECT_DIR$/IniciandoEmJava.iml" filepath="$PROJECT_DIR$/IniciandoEmJava.iml" />
     </modules>
   </component>

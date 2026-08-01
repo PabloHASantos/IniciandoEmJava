@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Atribuicao-e-Casting/Atribuicao-e-Casting.iml" filepath="$PROJECT_DIR$/Atribuicao-e-Casting/Atribuicao-e-Casting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Entrada-de-dados/Entrada-de-dados.iml" filepath="$PROJECT_DIR$/Entrada-de-dados/Entrada-de-dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funcoes-matematicas/Funcoes-matematicas.iml" filepath="$PROJECT_DIR$/Funcoes-matematicas/Funcoes-matematicas.iml" />
       <module fileurl="file://$PROJECT_DIR$/IniciandoEmJava.iml" filepath="$PROJECT_DIR$/IniciandoEmJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Saida-de-dados/Saida-de-dados.iml" filepath="$PROJECT_DIR$/Saida-de-dados/Saida-de-dados.iml" />
     </modules>

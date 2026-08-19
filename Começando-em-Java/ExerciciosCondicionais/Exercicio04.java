@@ -4,18 +4,19 @@ import java.util.Scanner;
 public class Exercicio04 {
     static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int hora1, hora2;
+        int horaInicial, horaFinal, duracao;
 
-        hora1 = sc.nextInt();
-        hora2 = sc.nextInt();
+        horaInicial = sc.nextInt();
+        horaFinal = sc.nextInt();
 
-        //só coloquei o if abaixo pra não ficar alertando como erro!
-        if(hora1 % hora2 == 0){
 
+        if(horaInicial < horaFinal){
+            duracao = horaInicial - horaFinal;
         }else{
-
+            duracao = 24 - (horaInicial - horaFinal);
         }
 
+        System.out.println("O jogo durou "+ duracao +" horas!");
         sc.close();
     }
 }

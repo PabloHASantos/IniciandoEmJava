@@ -13,24 +13,18 @@ public class Exercicio03 {
             switch (codigo){
                 case 1:
                     alcool += 1;
-                    System.out.println("Digite o código do combustível: ");
-                    codigo = sc.nextInt();
                     break;
                 case 2:
                     gasolina += 1;
-                    System.out.println("Digite o código do combustível: ");
-                    codigo = sc.nextInt();
                     break;
                 case 3:
                     diesel += 1;
-                    System.out.println("Digite o código do combustível: ");
-                    codigo = sc.nextInt();
                     break;
                 default:
-                    System.out.println("Digite o código do combustível: ");
-                    codigo = sc.nextInt();
                     break;
             }
+            System.out.println("Digite o código do combustível: ");
+            codigo = sc.nextInt();
         }
         System.out.println("MUITO OBRIGADO!!");
         System.out.println("Alcool: " + alcool);

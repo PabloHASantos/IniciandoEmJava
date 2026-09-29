@@ -33,5 +33,10 @@ public class FuncoesString {
         System.out.println(vect[2]);
         System.out.println(vect[3]);
 
+        // Comentário de linha
+        /*
+        comentário de bloco
+         */
+
     }
 }

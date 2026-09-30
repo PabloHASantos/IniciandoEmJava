@@ -18,11 +18,11 @@ public class SemPoo {
         double t2LadoB = sc.nextDouble();
         double t2LadoC = sc.nextDouble();
 
-        double p1 = (t1LadoA + t1LadoB + t1LadoC) / 2;
-        double p2 = (t2LadoA + t2LadoB + t2LadoC) / 2;
+        double p = (t1LadoA + t1LadoB + t1LadoC) / 2;
+        double area1 = Math.sqrt(p * (p - t1LadoA) * (p - t1LadoB) * (p - t1LadoC));
 
-        double area1 = Math.sqrt((p1 * (p1 - t1LadoA) * (p1 - t1LadoB) * (p1 - t1LadoC)));
-        double area2 = Math.sqrt((p2 * (p2 - t2LadoA) * (p2 - t2LadoB) * (p2 - t2LadoC)));
+        p = (t2LadoA + t2LadoB + t2LadoC) / 2;
+        double area2 = Math.sqrt(p * (p - t2LadoA) * (p - t2LadoB) * (p - t2LadoC));
 
         System.out.println("Triângulo nº 1 area = " + area1);
         System.out.println("Triângulo nº 2 area = " + area2);

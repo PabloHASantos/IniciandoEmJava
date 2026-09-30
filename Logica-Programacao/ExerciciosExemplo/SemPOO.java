@@ -3,7 +3,7 @@ package ExerciciosExemplo;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class SemPoo {
+public class SemPOO {
     static void main() {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
